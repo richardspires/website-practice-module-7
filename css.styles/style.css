@@ -150,6 +150,21 @@ ul .activies-header{
     list-style-type: circle;
 }
 
+.gallery{
+    margin: 0 auto;
+    align-items: right;
+    display: block;
+    height: 75%;
+    width: 45%;
+    border: 5px solid black;
+    background-color: darkgray;
+    box-shadow: rgba(255, 255, 255, 0.1);
+}
+
+.youtube{
+    display: flex;
+    justify-content: center;
+}
 
 footer{
     height: 80px;
