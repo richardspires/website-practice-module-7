@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css.styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Gloria+Hallelujah&
+    <title>Sign up</title>
+</head>
+<body>
+        <header>
+        <nav class="nav-header">
+            <a href="./index.html" class="logo"><img src="./img/logo.png" alt="logo"  class="logo-pic"><em></em>BatCaveGym</em></a>
+            <ul class="nav-header-menu">
+                <li class="nav-header-menu-item">
+                    <a href="./about.html">About Us</a>
+                </li>
+                <li class="nav-header-menu-item">
+                    <a href="./gallery.html">Gallery</a>
+                </li>
+                <li class="nav-header-menu-item">
+                    <a href="./sign-up.html">Sign Up</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+   <h1>
+        Sign Up
+    </h1>
+    <form action="#" method="GET">
+        <div>
+            <label class="form-row">
+                First Name:
+                <input type="text" name="first-name" required>
+            </label>
+        </div>
+        <div>
+            <label class="form-row">
+                Last Name:
+                <input type="text" name="last-name" required>
+            </label>
+        </div>
+        <div>
+            <label class="form-row">
+                Email:
+                <input type="email" name="email" 
+                required>
+            </label>
+        </div>
+        <div>
+            <label class="form-row">
+                Phone Number:                       (format: ###-###-####)
+                <input type="tel" name="phone-number" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890">
+            </label>
+        </div>
+
+        <div class="form-row">
+            <label">
+                Membership:
+                <select name="membership" id="count">
+                    <option value="base">Base</option>
+                    <option value="terror">Terror</option>
+                    <option value="death">Death</option>
+                    <button class="radio">choose</button>
+                </select>
+            </label>
+        </div>
+
+        <div>
+            <label class="form-row">
+                Message:
+                <textarea name="message" cols="30" rows="10" required>What are you looking for?</textarea>
+            </label>
+        </div>
+        <div>
+            <button type="submit">
+                Submit
+            </button>
+        </div>
+    </form>
+
+    <footer>
+    <p>Copyright &copy; Bat Cave Gym</p>
+</footer>
+</body>
+</html>
