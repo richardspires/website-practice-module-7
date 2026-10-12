@@ -5,6 +5,7 @@
 
 html{
     font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body {
@@ -42,6 +43,7 @@ body {
     padding: 0% 75px;
     margin: 25px;
     text-decoration-color: darkred;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
 }
 
 .nav-header-menu{
@@ -50,6 +52,7 @@ body {
     color: rgb(30, 30, 30);
     justify-content: flex-end;
     display: flex;
+    font-family: 'antic slab';
 }
 
 .nav-header{
@@ -83,7 +86,7 @@ ul{
     background-color: darkgray;
 }
 
-ol{
+li{
     overflow: hidden;
     background-color: darkgray;
     align-items: center;
@@ -107,6 +110,7 @@ ol{
 .form-row{
     display: flex;
     justify-content: right;
+     font-family: 'antic slab';
 }
 
 form{
